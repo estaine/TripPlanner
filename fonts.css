@@ -21,3 +21,15 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'familiar_probold';
+    src: url('fonts/familiar/familiar_pro-bold.eot');
+    src: url('fonts/familiar/familiar_pro-bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/familiar/familiar_pro-bold.svg#familiar_probold') format('svg'),
+		 url('fonts/familiar/familiar_pro-bold.woff') format('woff'),
+         url('fonts/familiar/familiar_pro-bold.ttf') format('truetype');         
+    font-weight: normal;
+    font-style: normal;
+
+}

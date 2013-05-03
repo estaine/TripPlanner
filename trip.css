@@ -110,8 +110,7 @@ body {
 	height: 75px;
 	float: left;
 	background-image: url(png/sticker.png);
-	font-family: 'Trebuchet MS';
-	font-weight: bold;
+	font-family: 'familiar_probold';
 	font-size: 20pt;
 	color: #feffd3;
 	text-align: center;
