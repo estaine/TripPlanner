@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'ubunturegular';
+    src: url('fonts/ubuntu/ubuntu-r.eot');
+    src: url('fonts/ubuntu/ubuntu-r.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ubuntu/ubuntu-r.svg') format('svg'),
+         url('fonts/ubuntu/ubuntu-r.woff') format('woff'),
+         url('fonts/ubuntu/ubuntu-r.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'playbold';
+    src: url('fonts/play/play-bold.eot');
+    src: url('fonts/play/play-bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/play/play-bold.svg') format('svg'),
+         url('fonts/play/play-bold.woff') format('woff'),
+         url('fonts/play/play-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

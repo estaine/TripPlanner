@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="fonts.css"/>
+		<link type="text/css" rel="stylesheet" href="trip.css"/>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="tblgen.js"></script>
+	</head>
+	<body>
+		<table id = "tripFormLine">
+			<tr>
+				<td>
+					Тип
+				</td>
+				<td>
+					<select id = "actClass">
+						 <option value = "Plane">Самолет</option>
+						 <option value = "Train">Поезд</option>
+						 <option value = "Bus">Автобус</option>
+						 <option value = "CheckIn">Заселение</option>
+						 <option value = "CheckOut">Выселение	</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Откуда
+				</td>
+				<td>
+					<input id = "actPointFrom" placeholder = "Дюссельдорф" type = "text">
+				</td>
+				<td>
+					в
+				</td>
+				<td>
+					<input id = "actPointTimeStart" placeholder = "10:00" type = "text">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Куда
+				</td>
+				<td>
+					<input id = "actPointTo" placeholder = "Барселона" type = "text">
+				</td>
+				<td>
+					в
+				</td>
+				<td>
+					<input id = "actPointTimeFinish" placeholder = "12:30" type = "text">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Дата
+				</td>
+				<td>
+					<input id = "actDate" placeholder = "02.05 Чт" type = "text">
+				</td>
+			</tr>
+			</tr>
+			<tr>
+				<td>
+					Цена
+				</td>
+				<td>
+					<input id = "actPrice" type = "text"> €
+				</td>
+
+			</tr>
+		</table>
+		<input id = "btnAddLine" type = "button" value = "Add" onClick = "AddTripLine();">
+		<br>
+		<div id = "tripPlan">
+		</div>
+	</body>
+</html>

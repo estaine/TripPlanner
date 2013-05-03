@@ -1,0 +1,120 @@
+body {
+	background-color: #ffffeb;
+}
+
+#tripFormLine td, input, select {
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 16pt;
+}
+
+#tripFormLine input {
+	padding-left: 10px;
+}
+
+#actPointTimeStart, #actPointTimeFinish  {
+	width: 80px;
+}
+
+#actPointFrom, #actPointTo  {
+	width: 250px;
+}
+
+#actDate {
+	width: 110px;
+}
+
+#actPrice {
+	width: 60px;
+}
+
+.cRow {
+	width: 700px;
+	height: 120px;
+	position: relative;
+}
+
+.cTab {
+	width: 20px;
+	height: 80px;
+	background-image: url(png/tab.png);
+	float: left;
+	text-align: center;
+	position: relative;
+}
+
+.cTabText {
+	
+	-moz-transform: rotate(270deg);
+	-moz-transform-origin: 32px 28px;
+	-webkit-transform: rotate(270deg);
+	-webkit-transform-origin: 32px 28px;
+	-o-transform: rotate(270deg);
+	-o-transform-origin: 32px 28px;
+	writing-mode: rl-tb;
+	font-family: 'playbold';
+	font-size: 10pt;
+	color: #ffffff;
+	width: 80px;
+	text-align: left;
+}
+
+.cIcon {
+	width: 120px;
+	height: 120px;
+	float: left;
+}
+
+.cCityBox {
+	width: 320px;
+	height: 120px;
+	float: left;
+	position: relative;
+}
+
+.cCity {
+	width: 280px;
+	height: 50px;
+	text-align: left;
+	background: #4f4f4f;
+	font-family: 'ubunturegular';
+	font-size: 30pt;
+	color: #ffffff;
+	text-align: left;
+	padding-left: 40px;
+	padding-top: 10px;
+}
+
+.cTimeBox {
+	width: 160px;
+	height: 120px;
+	float: left;
+	position: relative;
+}
+
+.cTime {
+	width: 150px;
+	height: 50px;
+	text-align: left;
+	background: #4f4f4f;
+	font-family: 'ubunturegular';
+	font-size: 30pt;
+	color: #ffffff;
+	text-align: left;
+	padding-left: 20px;
+	padding-top: 10px;
+
+}
+
+.cSticker {
+	width: 80px;
+	height: 75px;
+	float: left;
+	background-image: url(png/sticker.png);
+	font-family: 'Trebuchet MS';
+	font-weight: bold;
+	font-size: 20pt;
+	color: #feffd3;
+	text-align: center;
+	vertical-align: center;
+	padding-top: 45px;
+}
